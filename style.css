@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+}
+.top {
+    position: sticky;
+    background: rgb(188, 188, 188);
+    display: flex;
+    top: 0;
+}
+.searchbar {
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+.maincontent {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+.chapters {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(188, 188, 188, 0);
+    padding: 0;
+    list-style-type: none;
+}
+.bookcover {
+    margin-left: auto;
+    margin-top: 2rem;
+    margin-right: 2rem;
+    width: 30%;
+    height: 60%;
+}
+h2 {
+    margin-left: auto;
+    margin-right: auto;
+}
+a {
+    background-color: rgb(162, 162, 162);
+    border-radius: 0px;
+    margin-bottom: 0;
+}
+footer {
+    position: sticky;
+    bottom: 0;
+}
